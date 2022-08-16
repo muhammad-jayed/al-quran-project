@@ -1,0 +1,476 @@
+
+
+/*==========videofile========*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    list-style: none;
+    text-decoration: none;
+ }
+
+body{
+    background: #0e0f28;
+}
+
+.amol-main h2{
+    color: #01b6ff;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.amol-main .aml-hed{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.amol-main .amol-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 171px;
+    width: 91%;
+    padding: 13px;
+    background: #4a4fb3c2;
+    border-radius: 25px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.amol-head img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 55px;
+}
+
+.amols ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 75px;
+}
+
+.amols ul li {
+    height: 51px;
+    width: 91%;
+ 
+    background: #22244f;
+    border-radius: 11px;
+    margin-top: 15px;
+}
+
+.amol {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.amol h3{
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.amol img{
+    height: 51px;
+    width: 100px;
+    border-radius: 0px 11px 11px 0px;
+}
+
+.amol p{
+    height: 31px;
+    width: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #01b6ff;
+    color: #ffffff;
+    border-radius: 7px;
+    margin-left: 11px;
+}
+
+
+
+/*====ayatul- Kurchiii=========*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.solat-main{
+    background: #171431;
+    padding-bottom: 55px;
+}
+
+.solat-main h1{
+    text-align: center;
+    color: #01b6ff;
+    padding-top: 25px;
+    font-size: 27px;
+}
+
+.solat{
+   padding: 15px;
+}
+
+.solat img{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.bani-head span{
+    color: #01b6ff;
+    font-weight: 600;
+}
+
+.solat .dolil{
+    color: #01b6ff;
+    font-weight: 600;
+    padding: 11px;
+}
+
+.solat .meaning{
+    color: #fefefe;
+    padding-left: 5px;
+}
+
+span{
+    color: #01b6ff;
+    font-weight: 500;
+}
+
+
+.fojiloth-bani h3{
+     font-size: 35px;
+     padding-top: 25px !important;
+}
+
+.arabic-form{
+    text-align: right;
+    
+}
+
+.solat-main h2{
+    padding-top: 25px;
+    text-align: center;
+    color: rgb(220, 218, 214);
+    line-height: 45px;
+    font-size: 27px;
+}
+
+.solat h3{
+    color: aliceblue;
+    padding: 11px;
+    font-size: 25px;
+}
+
+.solat p{
+    color: rgb(161, 160, 157);
+    padding-top: 15px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+
+/*===========jummma--amol=====*/
+
+
+
+.main-video h2{
+    text-align: center;
+    padding: 25px 0px;
+    color: #01b6ff !important;
+}
+
+.iframe-video{
+   display: flex;
+   justify-content: center;
+}
+
+
+.main-video iframe{
+    width: 100%;
+    height: 215px;
+}
+
+
+
+.main-video p{
+    color: #c8c5c5;
+    font-size: 13px;
+    padding-left: 19px;
+    padding-top: 5px;
+
+}
+
+.main-video h3{
+     color: #ffffff;
+     font-size: 17px;
+     padding-top: 11px;
+     padding-left: 19px;
+     font-weight: 600;
+}
+
+.main-video h3 span{
+    color: #aea8b4;
+    font-size: 13px;
+}
+.main-amol h3{
+    padding: 35px  15px;
+    color: #01b6ff;
+}
+
+.bani-dolil h5{
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-right: 25px;
+    text-align: right;
+    color: #01b6ff;
+    font-size: 27px;
+    line-height: 45px;
+}
+
+
+
+
+.main-amol ul li{
+    padding-left: 35px;
+    padding-right: 15px;
+    color: #aea8b4;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.bani-dolil{
+    padding-top: 15px;
+    padding-bottom: 55px;
+}
+
+.bani-dolil h1{
+    padding: 25px;
+    color: bisque;
+}
+
+.bani-dolil h3{
+    padding-bottom: 5px;
+}
+
+.bani-dolil p{
+    /* padding-bottom: 25px;
+    padding-right: 25px;
+    line-height: 21px; */
+    color: rgb(161, 160, 157);
+    padding-top: 15px;
+    font-size: 15px;
+    line-height: 25px;
+    padding-right: 21px;
+}
+
+/* .solat p{
+    color: rgb(161, 160, 157);
+    padding-top: 15px;
+    font-size: 15px;
+    line-height: 25px;
+} */
+
+
+
+.bani-dolil h4{
+    padding: 15px;
+    color: #01b6ff;
+    font-size: 15px;
+}
+
+
+
+
+/*---------
+bottom nav
+==================*/
+
+
+
+nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    background-color: #01b6ff;
+    overflow-x: auto;
+    display: flex;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #fefefe;
+    text-decoration: none;
+    -webkit-top-highlight-color:transparent;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.nav a i{
+   font-size: 17px
+}
+
+.nav a i:hover{
+    font-size: 25px;
+    color: #22396e;
+ }
+
+
+
+ /* question and answer
+ 
+ 
+ ---------------==== */
+
+ 
+
+.main-video-question{
+    position: fixed;
+    height:255px;
+    width: 100%;
+    background: #171431;
+}
+
+
+.main-video-question iframe{
+    width: 100%;
+    height: 235px;
+    
+}
+
+.main-video-question h2{
+    color:#01b6ff;
+    font-size: 21px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-bottom: 15px;
+
+}
+
+.question-title h5{
+    color: #c8c5c5;
+    font-size: 13px;
+    padding-left: 19px;
+    padding-top: 7px;
+
+}
+
+.question-title h3{
+     color: #ffffff;
+     font-size: 19px;
+     padding-left: 19px;
+     padding-top: 11px;
+}
+
+
+.question-list{
+    padding-top:245px;
+    background: #171431;
+    padding-bottom: 9px;
+    padding-bottom: 55px;
+}
+
+.question-list ul li a{
+    text-decoration: none;
+}
+
+.question-list ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.question-list ul li{
+    height: auto;
+    width: 85%;
+    background: #1e1d4b;
+    padding: 9px;
+    border-radius: 15px;
+    margin-top: 21px;
+}
+
+.question-list ul li a img{
+    width: 100%;
+    height: 151px;
+    border-radius: 11px;
+    text-align: right;
+ 
+}
+
+.question-list ul li a h3{
+    color: #fefdff;
+    font-size: 17px;
+    padding: 5px;
+}
+
+
+/* sura-mulk-main */
+
+.sura-mulk-main {
+    padding: 15px;
+}
+
+.sura-mulk-main div{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    height: 71px;
+    width: 100%;
+    background: #22396e;
+    border-radius: 25px;
+}
+
+.sura-mulk-main div a{
+     text-decoration: none;
+     padding: 9px 25px;
+     margin: 15px 0px;
+     background: #01b6ff;
+     border-radius: 5px;
+     color: white;
+}
+
+
+.hed-title-zikir {
+    position: fixed;
+    height: 71px;
+    width: 100%;
+    color: #aea8b4;
+    background: #22396e;
+}
+
+.hed-title-zikir h2{
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+#solat{
+    padding-top: 75px
+}
+
+
+
+
+
